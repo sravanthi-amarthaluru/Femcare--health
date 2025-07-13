@@ -1,0 +1,12 @@
+# Authentication
+JWT_SECRET_KEY = "your_very_secure_random_string_here"
+
+# Email
+SMTP_SERVER = "smtp.gmail.com"
+SMTP_PORT = 587
+EMAIL_USER = "your_email@gmail.com"
+EMAIL_PASSWORD = "your_app_specific_password"
+EMAIL_FROM = "no-reply@femcare.health"
+
+# Database
+DATABASE_URL = "sqlite:///data/users.db"
